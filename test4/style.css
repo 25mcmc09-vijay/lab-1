@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-transform:uppercase;
+}
+.form{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 8px 8px 0px ;
+}
+.labels{
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: .3px;
+    margin: 20px 0 5px;
+    text-transform:uppercase;
+
+}
+input{
+    display: block;
+    border: solid 2px;
+    padding: 12px;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+     transition: all 0.25s ease;
+}
+
+input:focus{
+    box-shadow: 4px 4px 0px;
+        transform: translate(-1px,-1px);
+}
+
+.submit_button{
+    background-color: #fe5b63;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px ;
+    text-align: center;
+    margin: 30px 0  20px;
+    border: solid black 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition: all 0.25s ease;
+}
+.submit_button:hover{
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transform: translate(-1px,-1px);
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or::before ,.or::after {
+     border-bottom: solid 2px #000;
+     flex: 1;
+     content: "";
+}
+.or::before{
+    margin-right: 10px;
+}
+.or::after{
+    margin-left: 10px;
+}
+
+.other_signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.s{
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+.s:hover{
+    box-shadow: 4px 4px 0px #000;
+    transform: translate(-1px,-1px);
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin: 4px 0;
+}
+
+.strength {
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+}
