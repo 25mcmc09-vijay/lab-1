@@ -112,9 +112,7 @@
 }
 
 .tasks{
-  
-    
-    
+
     margin: 20px 0;
     background-color: var(--ternary-color);
     padding: 20px;
@@ -151,5 +149,36 @@
         
         border: 2px solid #000; /* keep border */
     }
+}
+
+@media (max-width:600px) {
+    .heading{
+        font-size: 1rem;
+        .t{
+            font-size: 1.5rem;
+        }
+    }
+    #addTask{
+        font-size: 0.8rem;
+    }
+
+    #date{
+        padding: 6.7px;
+    }
+
+    .addbutton{
+        padding: 7px;
+    }
+
+    .tasks{
+        font-size: 0.8rem;
+    }
+    
+
+
+
+
+    
+   
 }
 
