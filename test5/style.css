@@ -53,23 +53,13 @@
   padding: 10.4px;
   border: none;
   border-bottom: 2px solid #000;
+border-right: 2px solid #000;
   background-color: white;
   cursor: pointer;
-  color: transparent;
+  
 }
 
-#date::-webkit-datetime-edit {
-  display: none;
-}
 
-#date::-webkit-calendar-picker-indicator {
-  opacity: 1;
-  cursor: pointer;
-}
-
-#date::-moz-datetime-edit {
-  display: none;
-}
 
 #addTask{
     border: none;
@@ -173,8 +163,10 @@
     .tasks{
         font-size: 0.8rem;
     }
+    #date{
+        width: 20px;
+    }
     
-
 
 
 
