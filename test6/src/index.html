@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="main">
+            <div class="heading">
+                <div class="t">Weekend</div>
+                <div class="b">To do List</div>
+            </div>
+            <div class="form">
+                <input type="date" name="date" id="date" placeholder="">
+                <input type="text" placeholder="Add todo's .." id="addTask">
+                
+                
+                <button class="addbutton">+Add </button>
+
+            </div>
+
+            <button data-state="all" class="btn active">All</button>
+            <button data-state="completed" class="btn">Completed</button>
+            <button data-state="pending" class="btn">Pending</button>
+
+            <div class="tasks">
+                <div class="task">
+                    <input type="checkbox" name="task" id="check">
+                    <div class="title">Grocery Shopping : 12/11/25</div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
