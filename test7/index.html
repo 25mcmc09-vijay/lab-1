@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="app">
+            <div class="search">
+                <input type="text" placeholder="Enter City"/>
+                <button id="search">Search</button>
+            </div>
+             <div class="weather">
+                    <h1 id="city">Indore</h1>
+                    <hr>
+                    <div id="degree">
+                        <div>
+                            <img src="./weather.jpg" alt="weather" id="weather_img">
+                        </div>
+                        
+                        <div>
+                             <p id="day">Sunny</p>
+                            <p><span id="inDegree">17</span> C</p>
+                            <p id="time">5 pm</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="date">
+                        6 feb 2025
+                    </div>
+                    <hr>
+                    <div class="stats">
+                        <div class="wind humidity">
+                            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/water.png" alt="water"/>
+                            <span id="humidity">50</span>%
+                        </div>
+                        <div class="wind">
+                            <img width="32" height="32" src="https://img.icons8.com/external-bartama-outline-32-bartama-graphic/32/external-energy-energy-power-bartama-outline-32-bartama-graphic-2.png" alt="external-energy-energy-power-bartama-outline-32-bartama-graphic-2"/>
+                            <span id="wind">30</span>ms
+                        </div>
+                    </div>
+                   
+                   
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="dist/index.js"></script>
+</body>
+</html>
