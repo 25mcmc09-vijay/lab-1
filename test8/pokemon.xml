@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pokedex>
+    <pokemon>
+        <name>Pikachu</name>
+        <trainer>Ash</trainer>
+        <type>Electric</type>
+        <power>320</power>
+        <region>Kanto</region>
+    </pokemon>
+
+    <pokemon>
+        <name>Charizard</name>
+        <trainer>Leon</trainer>
+        <type>Fire</type>
+        <power>534</power>
+        <region>Galar</region>
+    </pokemon>
+
+    <pokemon>
+        <name>Bulbasaur</name>
+        <trainer>Ash</trainer>
+        <type>Grass</type>
+        <power>318</power>
+        <region>Kanto</region>
+    </pokemon>
+
+    <pokemon>
+        <name>Greninja</name>
+        <trainer>Ash</trainer>
+        <type>Water</type>
+        <power>530</power>
+        <region>Kalos</region>
+    </pokemon>
+
+    <pokemon>
+        <name>Gengar</name>
+        <trainer>Cynthia</trainer>
+        <type>Ghost</type>
+        <power>500</power>
+        <region>Sinnoh</region>
+    </pokemon>
+</pokedex>
