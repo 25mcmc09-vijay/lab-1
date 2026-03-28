@@ -1,0 +1,239 @@
+/* my styles for user app */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4d4d4;
+  color: #222;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.bigDiv {
+  width: 920px;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  padding-bottom: 40px;
+}
+
+.titleArea {
+  text-align: center;
+  margin-bottom: 18px;
+  border-bottom: 3px solid #336699;
+  padding-bottom: 8px;
+}
+
+.titleArea h1 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 28px;
+  color: #003366;
+  text-decoration: underline;
+}
+
+.titleArea p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.errMsg {
+  background-color: #ffcccc;
+  border: 2px solid red;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.errMsg button.dismissLnk {
+  float: right;
+  color: blue;
+  text-decoration: underline;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.whiteBox {
+  background: #ffffff;
+  border: 1px solid #888888;
+  padding: 15px;
+  margin-top: 12px;
+  box-shadow: 2px 2px 5px #aaa;
+}
+
+.whiteBox h3 {
+  margin-top: 0;
+  color: #336699;
+  font-size: 18px;
+}
+
+.myForm label.lbl {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.myForm input.txt_input {
+  width: 100%;
+  max-width: 400px;
+  padding: 4px;
+  margin-top: 3px;
+  border: 1px solid #666;
+  font-size: 14px;
+}
+
+.buttons_div {
+  margin-top: 12px;
+}
+
+.goButton {
+  background-color: #3366ff;
+  color: white;
+  font-weight: bold;
+  padding: 6px 14px;
+  border: 1px outset #ccc;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.goButton:hover {
+  background-color: #2255ee;
+}
+
+.grayButton {
+  background-color: #cccccc;
+  padding: 6px 14px;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+.searchRow {
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.searchRow label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+#findBox {
+  width: 280px;
+  padding: 4px;
+  border: 1px solid #333;
+}
+
+.howMany {
+  float: right;
+  font-size: 13px;
+  color: #444;
+  margin-top: 22px;
+}
+
+.grayTxt {
+  color: #666666;
+  font-style: italic;
+}
+
+.scrollMaybe {
+  overflow-x: auto;
+  border: 1px solid #999;
+}
+
+table#userTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+table#userTable th {
+  background-color: #6699cc;
+  color: white;
+  border: 1px solid #333;
+  padding: 6px;
+  text-align: left;
+}
+
+table#userTable td {
+  border: 1px solid #999;
+  padding: 5px;
+  background-color: #fafafa;
+}
+
+table#userTable tr.notSavedYet td {
+  background-color: #ffffcc;
+}
+
+button.colSort {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lastCol {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.miniBtn {
+  font-size: 12px;
+  padding: 2px 8px;
+  margin: 1px;
+  border: 1px solid #333;
+  background: #e0e0e0;
+  cursor: pointer;
+}
+
+.miniBtn.delOne {
+  color: darkred;
+  font-weight: bold;
+}
+
+.miniBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.waitText {
+  font-size: 11px;
+  color: orange;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.pageBtns {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px dashed gray;
+}
+
+.pageBtns button {
+  padding: 4px 12px;
+  margin: 0 10px;
+  border: 1px solid #555;
+  background: #eee;
+  cursor: pointer;
+}
+
+.pageBtns button:disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
